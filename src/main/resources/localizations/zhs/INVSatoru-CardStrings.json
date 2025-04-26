@@ -1,0 +1,27 @@
+{
+  "INVSatoru:Blue": {
+    "NAME": "咒术「苍」",
+    "DESCRIPTION": "自动升级。 NL 造成 !D! 点伤害，获得 !B! 点 格挡 ，在本回合获得 !M! 点 力量 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害，获得 !B! 点 格挡 ，在本回合获得 !M! 点 力量 。"
+  },
+  "INVSatoru:Red": {
+    "NAME": "术式反转「赫」",
+    "DESCRIPTION": "自动升级。 NL 对所有意图攻击的敌人造成 !D! 点伤害。和手牌中的 *苍 会合成 *茈 。",
+    "UPGRADE_DESCRIPTION": "对所有意图攻击的敌人造成 !D! 点伤害。和手牌中的 *苍 会合成 *茈 。"
+  },
+  "INVSatoru:Limitless": {
+    "NAME": "无下限",
+    "DESCRIPTION": "保留 。自动升级。 NL 这张牌在手牌时，失去生命时少失去 !M! 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 这张牌在手牌时，失去生命时少失去 !M! 。"
+  },
+  "INVSatoru:UnlimitedVoid": {
+    "NAME": "无量空处",
+    "DESCRIPTION": "自动升级。 NL 给予所有敌人1层击晕。若在至少第 !M! 回合打出，杀死所有敌人。",
+    "UPGRADE_DESCRIPTION": "给予所有敌人1层 虚弱 和击晕。若在至少第 !M! 回合打出，杀死所有敌人。"
+  },
+  "INVSatoru:Purple": {
+    "NAME": "虚式「茈」",
+    "DESCRIPTION": "消耗 。 NL 杀死血量最高的敌人。将1张 *苍 和 *赫 加入抽牌堆。抽1张牌。",
+    "UPGRADE_DESCRIPTION": "消耗 。 NL 杀死血量最高的敌人。将1张 *苍+ 和 *赫+ 加入抽牌堆。抽1张牌。"
+  }
+}

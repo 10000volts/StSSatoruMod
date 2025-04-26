@@ -1,0 +1,27 @@
+{
+  "INVSatoru:Blue": {
+    "NAME": "Blue",
+    "DESCRIPTION": "Auto-upgrade. NL Deal !D! damage, gain !B! Block, and gain !M! Strength this turn.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage, gain !B! Block, and gain !M! Strength this turn."
+  },
+  "INVSatoru:Red": {
+    "NAME": "Red",
+    "DESCRIPTION": "Auto-upgrade. NL Deal !D! damage to all enemies intending to attack. Combines with *Blue in hand to form *Purple.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies intending to attack. Combines with *Blue in hand to form *Purple."
+  },
+  "INVSatoru:Limitless": {
+    "NAME": "Limitless",
+    "DESCRIPTION": "Retain. Auto-upgrade. NL While this card is in your hand, lose !M! less HP when losing HP.",
+    "UPGRADE_DESCRIPTION": "Retain. NL While this card is in your hand, lose !M! less HP when losing HP."
+  },
+  "INVSatoru:UnlimitedVoid": {
+    "NAME": "Unlimited Void",
+    "DESCRIPTION": "Auto-upgrade. NL Apply 1 Stun to ALL enemies. If played on or after turn !M!, kill ALL enemies.",
+    "UPGRADE_DESCRIPTION": "Apply 1 Weak and 1 Stun to ALL enemies. If played on or after turn !M!, kill ALL enemies."
+  },
+  "INVSatoru:Purple": {
+    "NAME": "Purple",
+    "DESCRIPTION": "Exhaust. NL Kill the enemy with the highest HP. Add 1 *Blue and 1 *Red to the draw pile. Draw 1 card.",
+    "UPGRADE_DESCRIPTION": "Exhaust. NL Kill the enemy with the highest HP. Add 1 *Blue+ and 1 *Red+ to the draw pile. Draw 1 card."
+  }
+}

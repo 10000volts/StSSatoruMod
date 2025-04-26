@@ -1,0 +1,100 @@
+{
+  "INVSatoru:Intro": {
+    "TEXT": [
+      "五条悟",
+      "现代最强术师。",
+      "拥有完全不同的初始卡组，很好玩！"
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart1": {
+    "TEXT": [
+      "会赢的。",
+      "你才是挑战者哦。"
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart2": {
+    "TEXT": [
+      "天上天下，唯我独尊。",
+      "不用担心，我是无敌的。"
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart3": {
+    "TEXT": [
+      "咒术高专一年级班主任，五条悟。"
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart4": {
+    "TEXT": [
+      "你才是挑战者哦。"
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart5": {
+    "TEXT": [
+      "我现在只是觉得……这个世界令我畅快。"
+    ]
+  },
+  "INVSatoru:TrashTalkKillAll": {
+    "TEXT": [
+      "麻烦让一下，还有很多学生等着呢。",
+      "时间差不多咯。"
+    ]
+  },
+  "INVSatoru:TrashTalkAct2_1": {
+    "TEXT": [
+      "毫无危机感啊。",
+      "再让我耍会帅吧。"
+    ]
+  },
+  "INVSatoru:TrashTalkAct2_2": {
+    "TEXT": [
+      "（掸掸衣服上的灰尘）",
+      "啧，又要换一套衣服了。"
+    ]
+  },
+  "INVSatoru:TrashTalkAct3": {
+    "TEXT": [
+      "热身结束。",
+      "快点结束吧，我还要去玩别的mod。"
+    ]
+  },
+  "INVSatoru:TrashTalkFightTheHeart": {
+    "TEXT": [
+      "这就是最终敌人吗？希望能多撑一会。",
+      "别气馁，只是我太强了。",
+      "用不着数到3，我就宰了你。"
+    ]
+  },
+  "INVSatoru:TrashTalkFightTheHeartProvoked": {
+    "TEXT": [
+      "下一个就是你。"
+    ]
+  },
+  "INVSatoru:TrashTalkDamage5": {
+    "TEXT": [
+      "简单来说，你没打中。"
+    ]
+  },
+  "INVSatoru:TrashTalkDamage5Provoked": {
+    "TEXT": [
+      "没关系的，因为你——很弱啊。"
+    ]
+  },
+  "INVSatoru:TrashTalkDamage15": {
+    "TEXT": [
+      "唔...",
+      "",
+      ""
+    ]
+  },
+  "INVSatoru:TrashTalkSecondWind": {
+    "TEXT": [
+      "反转术式。",
+      "这样啊……"
+    ]
+  },
+  "INVSatoru:TrashTalkSecondWindProvoked": {
+    "TEXT": [
+      "反转术式。"
+    ]
+  }
+}

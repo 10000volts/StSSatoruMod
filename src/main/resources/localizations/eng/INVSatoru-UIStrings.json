@@ -1,0 +1,100 @@
+{
+  "INVSatoru:Intro": {
+    "TEXT": [
+      "Gojo Satoru",
+      "The strongest sorcerer of the modern era.",
+      "A completely different starting deck. Really fun!"
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart1": {
+    "TEXT": [
+      "I'll win.",
+      "You're the challenger here."
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart2": {
+    "TEXT": [
+      "Throughout Heaven and Earth, I alone am the honored one.",
+      "Don't worry, I'm invincible."
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart3": {
+    "TEXT": [
+      "Gojo Satoru, first-year homeroom teacher at Jujutsu High."
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart4": {
+    "TEXT": [
+      "You're the challenger here."
+    ]
+  },
+  "INVSatoru:TrashTalkGameStart5": {
+    "TEXT": [
+      "Right now... I'm just feeling exhilarated by this world."
+    ]
+  },
+  "INVSatoru:TrashTalkKillAll": {
+    "TEXT": [
+      "Step aside, I've got students waiting.",
+      "Time's almost up."
+    ]
+  },
+  "INVSatoru:TrashTalkAct2_1": {
+    "TEXT": [
+      "No sense of danger at all.",
+      "Let me show off a bit more."
+    ]
+  },
+  "INVSatoru:TrashTalkAct2_2": {
+    "TEXT": [
+      "(Brushing dust off clothes)",
+      "Tch, gotta change outfits again."
+    ]
+  },
+  "INVSatoru:TrashTalkAct3": {
+    "TEXT": [
+      "Warm-up's over.",
+      "Let's wrap this up. I've got other mods to play."
+    ]
+  },
+  "INVSatoru:TrashTalkFightTheHeart": {
+    "TEXT": [
+      "This is the final boss? Hope it lasts a while.",
+      "Don't feel bad—it's just that I'm too strong.",
+      "I'll finish you off before the count of three."
+    ]
+  },
+  "INVSatoru:TrashTalkFightTheHeartProvoked": {
+    "TEXT": [
+      "You're next."
+    ]
+  },
+  "INVSatoru:TrashTalkDamage5": {
+    "TEXT": [
+      "Simply put, you missed."
+    ]
+  },
+  "INVSatoru:TrashTalkDamage5Provoked": {
+    "TEXT": [
+      "It's fine... because you're weak."
+    ]
+  },
+  "INVSatoru:TrashTalkDamage15": {
+    "TEXT": [
+      "Ugh...",
+      "",
+      ""
+    ]
+  },
+  "INVSatoru:TrashTalkSecondWind": {
+    "TEXT": [
+      "Reverse Cursed Technique.",
+      "I see..."
+    ]
+  },
+  "INVSatoru:TrashTalkSecondWindProvoked": {
+    "TEXT": [
+      "Reverse Cursed Technique."
+    ]
+  }
+}

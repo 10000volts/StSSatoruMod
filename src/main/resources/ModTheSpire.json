@@ -1,0 +1,12 @@
+{
+  "modid": "INVSatoru",
+  "name": "Gojo Satoru 无敌五条悟",
+  "author_list": ["vodkakaa"],
+  "description": "Base on the Invincible mod.\nThis is also an example mod.\ngithub: https://github.com/10000volts/StSSatoruMod",
+  "credits": "",
+  "version": "1.0.0",
+  "sts_version": "03-07-2022",
+  "mts_version": "3.24.0",
+  "dependencies": ["basemod", "stslib", "invincible-one"],
+  "update_json": ""
+}
