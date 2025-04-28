@@ -31,7 +31,7 @@ public class UnlimitedVoid extends AbstractInvincibleCard {
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String IMG_PATH = "cards/UnlimitedVoid.png";
 
-    private static final CardType TYPE = CardType.ATTACK;
+    private static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
 
@@ -82,14 +82,14 @@ public class UnlimitedVoid extends AbstractInvincibleCard {
                     isDone = true;
                 }
             });
-        }
-
-        for (AbstractMonster m : AbstractDungeon.getMonsters().monsters) {
-            if (!m.isDeadOrEscaped()) {
-                if (upgraded) {
-                    addToBot(new ApplyPowerAction(m, p, new WeakPower(m, 1, false)));
+        } else {
+            for (AbstractMonster m : AbstractDungeon.getMonsters().monsters) {
+                if (!m.isDeadOrEscaped()) {
+                    if (upgraded) {
+                        addToBot(new ApplyPowerAction(m, p, new WeakPower(m, 1, false)));
+                    }
+                    addToBot(new StunMonsterAction(m, p));
                 }
-                addToBot(new StunMonsterAction(m, p));
             }
         }
     }

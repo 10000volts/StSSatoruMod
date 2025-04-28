@@ -21,7 +21,7 @@
   },
   "INVSatoru:Purple": {
     "NAME": "Purple",
-    "DESCRIPTION": "Exhaust. NL Kill the enemy with the highest HP. Add 1 *Blue and 1 *Red to the draw pile. Draw 1 card.",
-    "UPGRADE_DESCRIPTION": "Exhaust. NL Kill the enemy with the highest HP. Add 1 *Blue+ and 1 *Red+ to the draw pile. Draw 1 card."
+    "DESCRIPTION": "Exhaust. NL Deals fatal damage to the enemy with the highest HP or taunt. Add 1 *Blue and 1 *Red to the draw pile. Draw 1 card.",
+    "UPGRADE_DESCRIPTION": "Exhaust. NL Deals fatal damage to the enemy with the highest HP or taunt. Add 1 *Blue+ and 1 *Red+ to the draw pile. Draw 1 card."
   }
 }

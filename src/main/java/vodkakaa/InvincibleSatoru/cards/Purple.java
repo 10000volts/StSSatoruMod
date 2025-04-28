@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.BufferPower;
 import com.megacrit.cardcrawl.vfx.combat.ExplosionSmallEffect;
 import demoMod.invincibleOne.InvincibleOneMod;
 import demoMod.invincibleOne.cards.invincible.AbstractInvincibleCard;
@@ -69,14 +70,22 @@ public class Purple extends AbstractInvincibleCard {
     }
 
     @Override
-    public void use(AbstractPlayer p, AbstractMonster m) {
+    public void use(AbstractPlayer p, AbstractMonster _m) {
         AbstractMonster t = getTarget();
         addToBot(new AbstractGameAction() {
             @Override
             public void update() {
-                t.currentHealth = 0;
-                t.healthBarUpdatedEvent();
-                t.die();
+                if (t.hasPower(BufferPower.POWER_ID) && t.getPower(BufferPower.POWER_ID).amount > 0) {
+                    if (t.getPower(BufferPower.POWER_ID).amount > 1) {
+                        t.getPower(BufferPower.POWER_ID).amount--;
+                    } else {
+                        addToBot(new RemoveSpecificPowerAction(t, t, BufferPower.POWER_ID));
+                    }
+                } else {
+                    t.currentHealth = 0;
+                    t.healthBarUpdatedEvent();
+                    t.damage(new DamageInfo(null, 0, DamageInfo.DamageType.HP_LOSS));
+                }
                 isDone = true;
             }
         });
